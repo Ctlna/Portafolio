@@ -27,6 +27,9 @@
 .no{
     display: none;
 }
+.no.active{
+    display: block;
+}
 :root{
     --marron:#400202;
 }
