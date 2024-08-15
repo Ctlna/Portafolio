@@ -1,0 +1,32 @@
+*{
+    text-decoration: none;
+    color: black;
+}
+.barra{
+    background-color: rgba(137, 43, 226, 0.541);
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-top: 1pt;
+    text-align: center;
+}
+.lateral{
+    display: flex;
+    text-align: center;
+    background-color: blanchedalmond;
+    justify-content: space-around;
+}
+.bl{
+    margin: 1em;
+}
+.imagen{
+    width: 39em;
+}
+.no{
+    display: none;
+}
+:root{
+    --marron:#400202;
+}
+h1{
+    color: var(--marron);
+}
