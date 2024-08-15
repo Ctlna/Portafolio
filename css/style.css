@@ -21,6 +21,9 @@
 .imagen{
     width: 39em;
 }
+.perfil{
+    width: 16em;
+}
 .no{
     display: none;
 }
@@ -29,4 +32,30 @@
 }
 h1{
     color: var(--marron);
+}
+h3{
+    text-align: center;
+}
+#SobreMi{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 2em;
+    height: 45em;
+}
+.y{
+    width: 250pt;
+    position: relative;
+    top: 1em;
+    font-size: 3em;
+    text-align: center;
+}
+.k{
+    width: 54em;
+    height: 13em;
+    font-size: 22px;
+    padding: 2em;
+    margin-top:1em;
 }
