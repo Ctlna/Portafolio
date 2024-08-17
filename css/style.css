@@ -19,21 +19,15 @@
     margin: 1em;
 }
 .imagen{
-    width: 39em;
+    width: 20em;
 }
 .perfil{
     width: 16em;
 }
-.no{
-    display: none;
-}
-.no.active{
-    display: block;
-}
 :root{
     --marron:#400202;
 }
-h1{
+h1,h3{
     color: var(--marron);
 }
 h3{
@@ -49,7 +43,7 @@ h3{
     height: 45em;
 }
 .y{
-    width: 250pt;
+    width: 14em;
     position: relative;
     top: 1em;
     font-size: 3em;
@@ -61,4 +55,10 @@ h3{
     font-size: 22px;
     padding: 2em;
     margin-top:1em;
+}
+.diferentesCerti{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
 }
