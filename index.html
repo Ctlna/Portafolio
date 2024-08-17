@@ -9,9 +9,9 @@
 <body>
 
     <div class="barra">
-        <h1>Portafolio</h1>
+        <h1 class="titu">Portafolio</h1>
         <div class="lateral">
-            <a href="#SobreMi" class="bl">Sobre Mí</a>
+            <a href="#SobreMi" class="bl">Acerca de Mí</a>
             <a href="#Objetivo" class="bl"> Mi Objetivo Profesional</a>
             <a href="#cosas" class="bl">Quien Soy</a>
             <a href="#servicios" class="bl">Servicios</a>
@@ -22,7 +22,7 @@
     </div>
 
     <div id="SobreMi">
-        <img src="/storage/foto.jpg" class="perfil" >
+        <img src="./storage/foto.jpg" class="perfil" >
         <div id="yo">
             <h1 class="y">Soy Catalina Mulford Monroy <br> una Desarrolladora Backend</h1>
         </div>
@@ -68,7 +68,11 @@
 
     <div id="proyecto" class="k">
         <h3>Proyectos</h3>
-        <p>Los proyectos que he hecho</p>
+        <div class="proyecto">
+            <h5>Kario Media</h5>
+            <p>Realizado con HTML, CSS y JavaScript</p>
+            <a src="https://github.com/Ctlna/Proyecto-filtro_LindarteBrayan_MulfordCatalina.git"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPtBoPFLnFAmY2er323hMTb6HedqtbWmrbuQ&s"> </a>
+        </div>
     </div>
 
     <div id="certificado" class="k">
@@ -106,7 +110,7 @@
                 <label for="mensaje">Mensaje</label><br>
                 <input type="text" id="mensaje" name="mensaje">
                 <br><br>
-                <input type="submit" value="Submit">
+                <input type="submit" value="Submit" class="botonC">
             </form>
         </div>
     </div>

@@ -1,11 +1,8 @@
 *{
     text-decoration: none;
-    color: black;
+    color: var(--letra);
     align-items: center;
-    background-color:#c89116;
-}
-body{
-    background-color: #c89116;
+    background-color:var(--fondo);
 }
 .barra{
     margin-left: 1em;
@@ -17,21 +14,32 @@ body{
     display: flex;
     text-align: center;
     justify-content: space-around;
+    background-color: var(--rojo);
 }
 .bl{
     margin: 1em;
+    color: var(--fondo);
+    background-color: var(--rojo);
+    font-size:1.2em;
 }
 .imagen{
     width: 20em;
 }
 .perfil{
-    width: 16em;
+    width: 15em;
 }
 :root{
-    --marron:#400202;
+    --letra: #2E3532;
+    --rojo: #8B2635;
+    --fondo: #E0E2DB;
+
+}
+.titu{
+    font-size: 3em;
 }
 h1,h3{
     color: var(--marron);
+
 }
 h3{
     text-align: center;
@@ -55,16 +63,16 @@ h3{
 .k{
     width: 54em;
     font-size: 22px;
-    padding: 2em;
+    padding: 1.4em;
     margin: 2em;
-    margin-top:1em;
     margin-bottom: 1em;
     text-align: justify;
 }
 .e{
     margin: 0;
-    margin-top: 1em;
     width: 39em;
+    border: 3px solid var(--rojo);
+    border-radius: 2em;
 }
 .diferentesCerti{
     display: flex;
@@ -73,14 +81,14 @@ h3{
     text-align: center;
 }
 .ingles, .excel{
-    border: 3px solid #b720209e;
+    border: 3px solid var(--rojo);
+    border-radius: 2em;
     width: 13em;
     height: 7em;
     text-align: center;
     padding: 10px;
     transition: all 0.3s ease;
     overflow: hidden;
-    border-radius: 2em;
 }
 .ingles p, .excel p, .info {
     display: none;
@@ -95,40 +103,45 @@ h3{
     width: 300px;
     transform: scale(1.5);
 }
-.botonV{
+.botonV, .botonC{
     width: 4em;
-    height: 3em;
-    border: 2px solid #406405;
-    background-color: #096c096b;
+    height: 3em;    border: 2px solid var(--rojo);
+    background-color: #8b263596;
     border-radius: 1em;
-    color: #0b2604;
+    color: #48040e;
     cursor: pointer;
 }
-#cosas{
+.botonC{
+    width: 6em;
+}
+#cosas {
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
     margin: 2em;
-    height: 45em;
-    align-content: center;
+    height: 37em;
+    align-content: space-around;
     justify-content: space-around;
 }
 .mision, .vision, .valores{
     width: 20em;
     text-align: justify;
+    border: 3px solid var(--rojo);
+    border-radius: 2em;
+    padding: 1em;
 }
 .valores{
     width: 45em;
 }
 .contato {
-    border: 3px solid #b720209e;
+    border: 3px solid var(--rojo);
+    border-radius: 2em;
     width: 28em;
     height: 13em;
     text-align: left;
     padding: 10px;
     transition: all 0.3s ease;
     overflow: hidden;
-    border-radius: 2em;
     position: relative;
     left: 13em;
     display: flex;
@@ -139,6 +152,17 @@ h3{
 }
 #Objetivo {
     width: 33em;
-    border: 3px solid #075406;
+    border: 3px solid var(--rojo);
     border-radius: 2em;
+}
+#servicios {
+    width: 33em;
+    border: 3px solid var(--rojo);
+    border-radius: 2em;
+}
+.proyecto {
+    width: fit-content;
+    border: 3px solid var(--rojo);
+    border-radius: 2em;
+    padding: 1em;
 }
