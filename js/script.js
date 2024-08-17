@@ -1,22 +1,21 @@
-document.addEventListener('DOMContentLoaded', function () {
-    const links = document.querySelectorAll('.lateral .bl');
-    const contents = document.querySelectorAll('.contenido');
+function mostrarInfo(class) {
+    var div = document.querySelector('.' + clase);
+    var info = div.querySelector('.info');
+    if (info.style.display === 'none') {
+        div.style.height = 'auto';  // Agranda el div para acomodar el contenido
+        info.style.display = 'block';
+    } else {
+        div.style.height = '100px';  // Restaura el tamaño inicial del div
+        info.style.display = 'none';
+    }
+}
 
-    links.forEach(link => {
-        link.addEventListener('click', function (e) {
-            e.preventDefault();
-
-            // Ocultar todos los divs
-            contents.forEach(content => {
-                content.classList.remove('active');
-            });
-
-            // Mostrar el div correspondiente
-            const targetId = this.getAttribute('data-target');
-            const targetDiv = document.getElementById(targetId);
-            if (targetDiv) {
-                targetDiv.classList.add('active');
-            }
-        });
-    });
-});
+function agrandarImagen(img) {
+    if (img.classList.contains('imagen-pequena')) {
+        img.classList.remove('imagen-pequena');
+        img.classList.add('imagen-grande');
+    } else {
+        img.classList.remove('imagen-grande');
+        img.classList.add('imagen-pequena');
+    }
+}

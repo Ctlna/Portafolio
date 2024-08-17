@@ -12,12 +12,12 @@
         <h1>Portafolio</h1>
         <div class="lateral">
             <a href="#SobreMi" class="bl">Sobre Mí</a>
-            <a href="#Objeto" class="bl"> Mi Objetivo Profesional</a>
+            <a href="#Objetivo" class="bl"> Mi Objetivo Profesional</a>
             <a href="#cosas" class="bl">Quien Soy</a>
             <a href="#servicios" class="bl">Servicios</a>
             <a href="#proyecto" class="bl">Proyectos</a>
-            <a href="#contato" class="bl">Contactame</a>
             <a href="#certificado" class="bl">Certificación</a>
+            <a href="#contato" class="bl">Contactame</a>
         </div>
     </div>
 
@@ -27,13 +27,13 @@
             <h1 class="y">Soy Catalina Mulford Monroy <br> una Desarrolladora Backend</h1>
         </div>
         <div class="k e">
-            <h3>Sobre mí</h3>
-            <p>Desarrollo de paginas con HTML, CSS y JavaScript.</p>
+            <h3>Acerca de mí</h3>
+            <p></p>
+            <p>Poseoo conocimientos en desarrollo web</p>
             <p>Desarrollo de base de datos con Java y Python</p>
             <p>Siempre busco mejorar la experiencia del usuario con interfaces fáciles de utilizar y entender.
-
             Tus logros o experiencia destacada: 
-                - Manejo del ingles, resolución de problemas, comunicación constante y puntualidad</p>
+            - Manejo del ingles, resolución de problemas, comunicación constante y puntualidad</p>
         </div>
     </div>
 
@@ -45,7 +45,7 @@
     <div id="cosas" class="k">
         <div class="mision">
             <h3>Misión</h3>
-            <p>Brindar soluciones a empresas que requieran soluciones en temas como bases de datos o desarrollo web. Busco trabajar junto a mis clientes para hacer que sus programas sean más eficientes y flexibles. Lo que me motiva es crecer personalmente en un mercado en constante evolución, mientras sigo mejorando tanto mis habilidades técnicas como mis capacidades interpersonales.</p>
+            <p>Brindar soluciones a empresas que requieran soluciones en temas como bases de datos o desarrollo web. Busco trabajar junto a mis clientes para hacer que sus programas sean más eficientes y flexibles.</p>
         </div>
         <div class="vision">
             <h3>Visión</h3>
@@ -67,27 +67,49 @@
     </div>
 
     <div id="proyecto" class="k">
-        <h3>NOO</h1>
-    </div>
-
-    <div id="contato" class="k">
-        <h3>Pues k</h1>
+        <h3>Proyectos</h3>
+        <p>Los proyectos que he hecho</p>
     </div>
 
     <div id="certificado" class="k">
         <h3>Mis certificaciones</h3>
         <div class="diferentesCerti">
             <div class="ingles">
-                <p>Certificación en ingles</p>
-                <img src="./storage/MET 2023.jpg" class="imagen">
+                <h4>Certificación de ingles</h4>
+                <div class="inf">
+                    <p>Lo estudie por x tiempo</p>
+                   <!-- <img src="./storage/MET 2023.jpg" class="imagen-pequena" onclick="agrandarImagen(this)">-->
+                </div>
+                <button onclick="mostrarInfor('ingles')" class="botonV">Ver</button>
             </div>
             <div class="excel">
-                <p>Certificación de Excel</p>
-                <img src="./storage/CatalinaMulfordCOLOMBIA-EXCEL Completo.jpg" class="imagen">
+                <h4>Certificación de Excel</h4>
+                <div class="inf">
+                    <p>Lo estudie por x tiempo</p>
+                 <!--   <img src="./storage/CatalinaMulfordCOLOMBIA-EXCEL Completo.jpg" class="imagen-pequena" onclick="agrandarImagen(this)">
+               --> </div>
+                <button onclick="mostrarInfor('excel')" class="botonV">Ver</button>
             </div>
         </div>
     </div>
 
+    <div id="contato" class="k">
+        <h3>Contactame</h3>
+        <div class="contato">
+            <form>
+                <label for="nombre">Nombre</label><br>
+                <input type="text" id="nombre" name="nombre">
+                <br><br>
+                <label for="correo">Correo</label><br>
+                <input type="text" id="correo" name="correo">
+                <br><br>
+                <label for="mensaje">Mensaje</label><br>
+                <input type="text" id="mensaje" name="mensaje">
+                <br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
 
     <script src="./js/script.js"></script>
 </body>
