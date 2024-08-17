@@ -1,6 +1,7 @@
 *{
     text-decoration: none;
     color: black;
+    align-items: center;
 }
 .barra{
     background-color: rgba(137, 43, 226, 0.541);
@@ -51,10 +52,15 @@ h3{
 }
 .k{
     width: 54em;
-    height: 13em;
     font-size: 22px;
     padding: 2em;
+    margin: 2em;
     margin-top:1em;
+    margin-bottom: 1em;
+}
+.e{
+    margin: 0;
+    margin-top: 1em;
 }
 .diferentesCerti{
     display: flex;
