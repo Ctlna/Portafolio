@@ -136,21 +136,20 @@ h3{
     margin-top: 3em;
 }
 .contato {
-    border: 3px solid var(--rojo);
-    border-radius: 2em;
-    width: 28em;
-    height: 13em;
+    /* border: 3px solid var(--rojo); */
+    /* border-radius: 2em; */
+    /* width: 28em; */
+    /* height: 13em; */
     text-align: left;
     padding: 10px;
-    transition: all 0.3s ease;
-    overflow: hidden;
+    /* transition: all 0.3s ease; */
+    /* overflow: hidden; */
     position: relative;
-    left: 13em;
+    /* left: 13em; */
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
-    align-items: baseline;
-    align-content: space-around;
+    align-content: center;
 }
 #Objetivo {
     width: 33em;
@@ -164,16 +163,37 @@ h3{
     padding: 0.4em;
 }
 .proyecto {
-    width: fit-content;
+    width: 10em;
     border: 3px solid var(--rojo);
     border-radius: 2em;
-    padding: 1em;
+    padding: 0.5em;
     text-align: center;
     margin: 1em;
 }
-.diferentesProyectos{
+.diferentesProyectos {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
 }
 .iconoP{
-    width: 7em;
+    width: 5em;
+}
+.diferentesSer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.redes{
+    display: flex;
+    flex-direction: column;
+}
+.iconConta{
+    width: 2em;
+    margin: 10px;
+    color: var(--rojo);
+}
+#contato, .contato, .TituC, form, .redes, .iconConta{
+    background-color: var(--rojo);
 }
