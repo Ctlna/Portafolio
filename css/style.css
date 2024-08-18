@@ -49,7 +49,7 @@ h3{
     justify-content: space-evenly;
     flex-direction: row-reverse;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: stretch;
     margin: 2em;
     height: 45em;
 }
@@ -59,6 +59,7 @@ h3{
     top: 1em;
     font-size: 3em;
     text-align: center;
+    color: #953a48;
 }
 .k{
     width: 54em;
@@ -69,7 +70,7 @@ h3{
     text-align: justify;
 }
 .e{
-    margin: 0;
+    margin-top: 0.3em;
     width: 39em;
     border: 3px solid var(--rojo);
     border-radius: 2em;
@@ -114,7 +115,7 @@ h3{
 .botonC{
     width: 6em;
 }
-#cosas {
+#Cosas {
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
@@ -132,6 +133,7 @@ h3{
 }
 .valores{
     width: 45em;
+    margin-top: 3em;
 }
 .contato {
     border: 3px solid var(--rojo);
@@ -155,14 +157,20 @@ h3{
     border: 3px solid var(--rojo);
     border-radius: 2em;
 }
-#servicios {
-    width: 33em;
+.servicios {
+    width: 15em;
     border: 3px solid var(--rojo);
     border-radius: 2em;
+    padding: 0.4em;
 }
 .proyecto {
     width: fit-content;
     border: 3px solid var(--rojo);
     border-radius: 2em;
     padding: 1em;
+    text-align: center;
+    margin: 1em;
+}
+.diferentesProyectos{
+    display: flex;
 }
