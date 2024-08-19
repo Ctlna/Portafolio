@@ -27,6 +27,8 @@
 }
 .perfil{
     width: 15em;
+    border: 5px solid var(--rojo);
+    border-radius: 5em;
 }
 :root{
     --letra: #2E3532;
