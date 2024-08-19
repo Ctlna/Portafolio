@@ -120,10 +120,11 @@ h3{
     flex-wrap: wrap;
     align-content: center;
 }
-#Objetivo {
+.texto {
     width: 33em;
     border: 3px solid var(--rojo);
     border-radius: 2em;
+    padding: 0.6em;
 }
 .servicios {
     width: 15em;
@@ -236,4 +237,16 @@ input::placeholder{
 .contactame{
     display:flex;
     font-size: 1em;
+}
+#Objetivo {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: stretch;
+}
+.iconLeng{
+    width: 2.6em;
+}
+.lenguajes{
+    display: contents
 }
