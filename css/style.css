@@ -158,6 +158,7 @@ h3{
     display: flex;
     background-color: transparent;
     flex-direction: column;
+    align-items: flex-start;
 }
 .iconConta{
     width: 2em;
@@ -231,4 +232,8 @@ input {
 input::placeholder{
     color: var(--fondo); 
     opacity: 1;
+}
+.contactame{
+    display:flex;
+    font-size: 1em;
 }
